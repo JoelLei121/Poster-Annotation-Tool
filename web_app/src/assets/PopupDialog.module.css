@@ -1,0 +1,44 @@
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    background-color: rgb(241, 241, 241);
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonSet {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    column-gap: 16px;
+}
+
+.txtList {
+    display: grid;
+    border: 1px solid;
+    width: 100px;
+    padding: 6px;
+}
+
+.txt {
+    margin-top: 0;
+    margin-bottom: 0;
+}

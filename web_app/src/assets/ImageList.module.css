@@ -1,0 +1,34 @@
+.list {
+    margin: 0 auto;
+    margin-top: 12px;
+    padding: 0 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    gap: 10px 12px;
+
+    overflow: auto;
+    scrollbar-width: thin;
+
+}
+
+.container {
+    width: 100px;
+    height: 100px;
+    border: solid;
+    cursor: pointer;
+    position: relative;
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+}
+
+.checkbox {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    transform: scale(1.5);
+}
+

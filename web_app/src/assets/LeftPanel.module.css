@@ -1,0 +1,9 @@
+.container {
+    padding: 8px;
+    width: 400px;
+    /* margin: 8px; */
+    height: auto;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+}
