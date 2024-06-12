@@ -15,7 +15,7 @@ npm run dev
 
 ## Backend
 
-With `CUDA 11.2` and `cuDNN 8.1`.
+`python 3.10.6` with `CUDA 11.2` and `cuDNN 8.1`.
 
 ### Installation
 create virtaul environment:
