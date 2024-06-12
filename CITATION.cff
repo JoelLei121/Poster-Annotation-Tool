@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Guerra"
+  given-names: "Joel"
+title: "Poster-Annotation-Tool"
+version: 1.0.0
+doi: 10.5281/zenodo.11617861
+date-released: 2024-06-12
+url: "https://github.com/JoelLei121/Poster-Annotation-Tool"
