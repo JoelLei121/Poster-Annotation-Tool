@@ -25,9 +25,6 @@ function App() {
 			{
 				selectedGallery ? 
 				<div style={{width: '100%', height: 'calc(100% - 70px)', display: 'flex'}}>
-					{
-						selectedImage
-					}
 					<LeftPanel />
 					<RightPanel />
 				</div> :

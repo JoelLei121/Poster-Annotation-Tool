@@ -138,8 +138,14 @@ def export_images():
     id_list = request.args.getlist('id')
     placeholders = ', '.join('?' for _ in id_list)
     
+    if not os.path.exists('./data'):
+        os.makedirs('./data')
+        
+    if os.path.isfile('./data/file.zip'):
+        os.remove('./data/file.zip')
+
     # get image
-    with zipfile.ZipFile('./data/file.zip', 'w') as zipf:
+    with zipfile.ZipFile('./data/file.zip', 'a') as zipf:
         query_string = '''
             SELECT image_id, name, data 
             FROM InpaintImage 

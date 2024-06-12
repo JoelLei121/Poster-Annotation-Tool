@@ -27,6 +27,7 @@ activate
 install requirement:
 ```
 cd ../..
+pip install --no-cache-dir torch==2.2.2+cu118 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 pip install -r requirements.txt
 ```
 ### Usage
