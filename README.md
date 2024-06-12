@@ -37,3 +37,14 @@ flask --app backend run
 
 ## Citation
 If you find this work useful for your research, please cite us.
+```
+@software{Guerra_Poster-Annotation-Tool_2024,
+    author = {Guerra, Joel},
+    doi = {10.5281/zenodo.11617861},
+    month = jun,
+    title = {{Poster-Annotation-Tool}},
+    url = {https://github.com/JoelLei121/Poster-Annotation-Tool},
+    version = {1.0.0},
+    year = {2024}
+}
+```
