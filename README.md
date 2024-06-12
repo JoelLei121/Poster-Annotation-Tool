@@ -15,6 +15,8 @@ npm run dev
 
 ## Backend
 
+With `CUDA 11.2` and `cuDNN 8.1`.
+
 ### Installation
 create virtaul environment:
 ```
@@ -25,7 +27,7 @@ activate
 install requirement:
 ```
 cd ../..
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 ### Usage
 run at local server:
