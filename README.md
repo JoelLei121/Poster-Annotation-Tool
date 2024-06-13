@@ -1,4 +1,4 @@
-This is a graduation project, a poster annotation tool for poster layout generation.
+This is a graduation project of @JoelLei121, a poster annotation tool for poster layout generation.
 
 ## Frontend
 
